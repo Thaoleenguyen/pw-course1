@@ -1,0 +1,2 @@
+Lý thuyết
+Working Directory ( Các file mới hoặc có thay đổi) -> Staging Area ( đưa vào vùng chuẩn bị commit ) -> Repository ( commit versions)
