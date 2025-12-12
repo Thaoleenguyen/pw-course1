@@ -1,2 +1,9 @@
-Lý thuyết
-Working Directory ( Các file mới hoặc có thay đổi) -> Staging Area ( đưa vào vùng chuẩn bị commit ) -> Repository ( commit versions)
+Step
+1. Create step by step : file 1, file 2 , file 3
+2. chạy lệnh git init : khi khởi tạo repo lần đầu (lần này k cần chạy)
+3. chạy lệnh git add file 1
+4. git commit -m "add file1"
+5. Hoặc nếu commit tất cả các file thì chạy git add.
+6. chạy lệnh git commit -m"add file" 
+
+
