@@ -6,4 +6,29 @@ Step
 5. Hoặc nếu commit tất cả các file thì chạy git add.
 6. chạy lệnh git commit -m"add file" 
 
-
+Update
+1. 
+a. Tạo 3 file : file1, file2, file3
+-Working Area : file 1,file2, file3
+- Staging Area : nothing
+- Repository : nothing
+b. Chạy lệnh git init : khởi tạo repo (chạy lần đầu) 
+-Working Area : file 1,file2, file3
+- Staging Area : nothing
+- Repository : nothing
+c. File này đang không có gì thay đổi ở Staging Area 
+Working Directory	file1, file2, file3
+Staging Area	nothing
+Repository	: nothing
+d. 
+Working Directory	file1, file2, file3
+Staging Area : 	file1
+Repository	: ❌
+e. 
+Working Directory	file1, file2, file3
+Staging Area : 	nothing
+Repository	: commit chỉ chứa file1
+f. file2, file3 chưa được git add
+Working Directory	file1, file2, file3
+Staging Area : 	nothing
+Repository	: commit chỉ chứa file1
