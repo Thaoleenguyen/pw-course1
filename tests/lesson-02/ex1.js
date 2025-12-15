@@ -1,6 +1,6 @@
 const number = 12;
 var name = "my number";
 var isEven = false;
-If (number % 2 === 0) {
+if (number % 2 === 0) {
     isEven = true;
 }
