@@ -16,15 +16,15 @@ b. Chạy lệnh git init : khởi tạo repo (chạy lần đầu)
 -Working Area : file 1,file2, file3
 - Staging Area : nothing
 - Repository : nothing
-c. File này đang không có gì thay đổi ở Staging Area 
+c. chạy git commit -m "" :File này đang không có gì thay đổi ở Staging Area 
 Working Directory	file1, file2, file3
 Staging Area	nothing
 Repository	: nothing
-d. 
+d. chạy lệnh git add file1
 Working Directory	file1, file2, file3
 Staging Area : 	file1
 Repository	: ❌
-e. 
+e. git commit -m"add file1"
 Working Directory	file1, file2, file3
 Staging Area : 	nothing
 Repository	: commit chỉ chứa file1

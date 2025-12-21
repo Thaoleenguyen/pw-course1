@@ -1,0 +1,19 @@
+1.Git 
+1.1 : Git undo : restore from staging to Working Directory
+Câu lệnh :
+git restore --stage <filename> : restore 1 file cụ thể
+git restore --stage . : restore toàn bộ file 
+1.2 : Git un-commit : restore from Repository to staging
+Câu lệnh :
+git reset HEAD~n (n là số commit)
+để chính xác commit nào muốn reset : chạy git log 
+1.3 : Pull code
+git pull origin main : pull code từ serve về
+xem danh sách nhánh : git branch
+tạo nhánh : git branch <tên nhánh>
+chuyển sang nhánh mới : git checkout <tên nhánh> 
+chuyển sang nhánh mới vừa tạo : git checkout -b <tên nhánh>
+xóa nhánh (phải đứng ở nhánh khác trước khi xóa) git branch -D <tên nhánh>
+1.4 : Ignore 
+file .gitignore
+dùng để bỏ qua các file không cần git theo dõi
