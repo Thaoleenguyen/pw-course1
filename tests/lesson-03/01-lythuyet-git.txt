@@ -17,3 +17,4 @@ xóa nhánh (phải đứng ở nhánh khác trước khi xóa) git branch -D <t
 1.4 : Ignore 
 file .gitignore
 dùng để bỏ qua các file không cần git theo dõi
+2. Javascript 

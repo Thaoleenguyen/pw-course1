@@ -32,6 +32,7 @@ typeof <variable>
 3.6 : Vòng lặp 
 - For (i)
 for (<điều kiên>; điều kiện lặp ;<cập nhật>)
+dùng để tính tổng 
 
 
 
