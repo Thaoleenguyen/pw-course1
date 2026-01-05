@@ -38,6 +38,33 @@ ví dụ : 5 !== 5       // false
 **3.4 : toán tử 1 ngôi**
 -prefix : tăng trước trả về sau
 -postfix : trả về trước, tăng sau
+Ví dụ 
+1. a++
+let a = 6;
+let b = a++ + 2;
+console.log(a);
+console.log(b);
+1️⃣ let a = 6
+
+➡️ a = 6
+
+2️⃣ let b = a++ + 2
+
+a++ là tăng SAU
+Lấy giá trị hiện tại của a → 6
+Tính b = 6 + 2 → b = 8
+Sau đó mới tăng a lên 1 → a = 7
+=> a =7, b =8
+2. ++a
+let a = 6;
+let b = a++ + 2;
+console.log(a);
+console.log(b);
+a =7
+b =9
+=> tóm lại 
+**a++ dùng trước – tăng sau
+++a tăng trước – dùng sau**
 **3.5 : điều kiện**
 if (điều_kiện) {
   // code sẽ chạy nếu điều_kiện === true
