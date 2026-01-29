@@ -1,3 +1,5 @@
+const { DiffieHellmanGroup } = require("crypto");
+
 //multiply 2 tham số
 function multiply(a, b) {
     return a * b;
